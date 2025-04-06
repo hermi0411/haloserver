@@ -1,0 +1,9 @@
+sv_name "hope this works lmao"
+sv_public true
+sv_maxplayers 8
+sv_password hope
+sv_mapcycle_timeout 5
+
+sv_mapcycle_add bloodgulch CTF
+sv_mapcycle_begin
+load
