@@ -1,0 +1,27 @@
+Roger Wolfson
+Online Services Engineering Lead
+
+Links:
+Halo PC 1.0.10
+Halo CE 1.0.10
+Halo PC Dedicated Server 1.0.10
+Halo CE Dedicated Server 1.0.10
+
+Patch notes:
+Bumped version to 1.0.10.0621
+Moved Gamespy services to use new non-Gamespy server
+Fixed a family of index-out-of-bounds bugs which had been exploited to crash clients
+Made banlist parsing not case-sensitive
+Removed halt on cache file verify error
+Removed some verbose debug logging of gamespy connections
+Fixed handling of video cards with >= 2GB of memory
+Enabled refractive Active Camo on Nvidia cards, which had previously used an alpha fade. (AMD cards already have this)
+Updated 2003-era upper bound on the video resolution picker. Use at your own risk; the game is untested at 4800x3600.
+Updated chatbox settings to work with newer resolutions
+Models node limit updated to 63
+Fixed reading sv_ban_penalty from init.txt
+Disabled executable_is_valid checksum from strings.dll
+Allowed network access in devmode
+Fixed parsing of custom map names containing a "."
+
+The Gamespy-replacement server will soon gain support for authenticating CD keys, allowing server operators to create meaningful ban files to keep out griefers (who could otherwise easily create a new online ID). This feature is still in testing and is not yet active.
